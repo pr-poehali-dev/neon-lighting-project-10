@@ -75,6 +75,18 @@ const photos = [
     url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/17584791-8c10-48c9-9af8-8f46b5f27674.jpg',
     caption: 'Автор рядом с завершённой скульптурой'
   },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/c908cecf-1f9c-4fbc-8d1d-7fd64b5cf530.jpg',
+    caption: 'Всадник — крупный план лица'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/80ff35dd-d963-41b3-acb5-d279d77efa12.jpg',
+    caption: 'Всадник — общий вид'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/f73faae9-e43c-4935-a8b5-329caa888f20.jpg',
+    caption: 'Всадник — вид сбоку'
+  },
 ]
 
 interface GallerySectionProps {
