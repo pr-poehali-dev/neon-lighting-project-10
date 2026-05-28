@@ -47,6 +47,22 @@ const photos = [
     url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/5a86d00e-c2a9-42aa-9d2e-8358add86fa4.jpg',
     caption: 'Начало — первые срезы бензопилой'
   },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/2ed6c84c-fc58-4f20-9c90-4752c73d2afa.jpg',
+    caption: 'Башня — крупный план'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/8aa390a8-2620-4924-a4a1-2d40f5f60b73.jpg',
+    caption: 'Башня — автор рядом с работой'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/2fee2eef-78b9-4a41-87b5-c6d0b6f447f1.jpg',
+    caption: 'Внутри башни — расписные фигуры'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/55fba473-5d44-4200-aa89-f788aa3435d9.jpg',
+    caption: 'Роспись — финальный штрих'
+  },
 ]
 
 interface GallerySectionProps {
