@@ -70,7 +70,13 @@ export default function LandingPage() {
           key={sections[i].id}
           {...sections[i]}
           isActive={sectionIndex === activeSection}
-          onButtonClick={sections[i].id === 'hero' ? () => handleNavClick(GALLERY_INDEX) : undefined}
+          onButtonClick={
+            sections[i].id === 'hero'
+              ? () => handleNavClick(GALLERY_INDEX)
+              : sections[i].id === 'join'
+              ? () => window.location.href = 'mailto:fediv.ivan80@gmail.com?subject=Заказ скульптуры&body=Здравствуйте! Хочу заказать скульптуру.'
+              : undefined
+          }
         />
       )
       sectionIndex++
