@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge"
 export const sections = [
   {
     id: 'hero',
-    subtitle: <Badge variant="outline" className="text-amber-300 border-amber-300/50">Портфолио скульптора</Badge>,
+    subtitle: <Badge variant="outline" className="text-amber-300 border-amber-300/50">Федив Иван · Скульптор-художник</Badge>,
     title: "Дерево, ставшее искусством.",
     showButton: true,
     buttonText: 'Смотреть работы'

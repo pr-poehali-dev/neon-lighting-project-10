@@ -18,6 +18,12 @@ export default function Layout({ children }: LayoutProps) {
         />
       </div>
       <div className="relative z-20 h-full">
+        <header className="fixed top-0 left-0 right-0 z-30 flex items-center justify-between px-8 md:px-16 py-4">
+          <div className="flex flex-col">
+            <span className="text-white font-bold text-lg md:text-xl tracking-wide leading-tight">Федив Иван</span>
+            <span className="text-amber-300 text-xs md:text-sm tracking-widest uppercase">Скульптор-художник</span>
+          </div>
+        </header>
         {children}
       </div>
     </div>
