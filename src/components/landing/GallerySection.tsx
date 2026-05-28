@@ -23,6 +23,18 @@ const photos = [
     url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/2db3b848-bf3b-45dc-835d-cdcb9453b94a.jpg',
     caption: 'Дивий Град — фестиваль скульптуры'
   },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/e6271912-da85-4aff-89f6-935ed3268732.jpg',
+    caption: 'Танцующая пара'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/e2962586-f023-4baa-ae20-24a6116292b0.jpg',
+    caption: 'Тонкая работа с деталями'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/6ebc617f-847e-4555-b5a7-d7ae2cfd58c9.jpg',
+    caption: 'Сердце — автор внутри своей работы'
+  },
 ]
 
 interface GallerySectionProps {
@@ -61,7 +73,7 @@ export default function GallerySection({ isActive }: GallerySectionProps) {
         </motion.h2>
 
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 flex-1 min-h-0"
+          className="grid grid-cols-2 md:grid-cols-4 gap-3 flex-1 min-h-0"
           initial={{ opacity: 0 }}
           animate={isActive ? { opacity: 1 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
