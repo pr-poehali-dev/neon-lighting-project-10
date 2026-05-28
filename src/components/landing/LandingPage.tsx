@@ -2,10 +2,12 @@ import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
 import Section from './Section'
 import GallerySection from './GallerySection'
+import WorkSection from './WorkSection'
 import Layout from './Layout'
 import { sections } from './sections'
 
 const GALLERY_INDEX = 4
+const WORK_INDEX = 5
 
 export default function LandingPage() {
   const [activeSection, setActiveSection] = useState(0)
@@ -13,7 +15,7 @@ export default function LandingPage() {
   const { scrollYProgress } = useScroll({ container: containerRef })
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 30, restDelta: 0.001 })
 
-  const totalDots = sections.length + 1
+  const totalDots = sections.length + 2
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,6 +56,12 @@ export default function LandingPage() {
       if (i === GALLERY_INDEX) {
         result.push(
           <GallerySection key="gallery" isActive={sectionIndex === activeSection} />
+        )
+        sectionIndex++
+      }
+      if (i === WORK_INDEX) {
+        result.push(
+          <WorkSection key="work" isActive={sectionIndex === activeSection} />
         )
         sectionIndex++
       }
