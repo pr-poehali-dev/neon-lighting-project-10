@@ -63,6 +63,18 @@ const photos = [
     url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/55fba473-5d44-4200-aa89-f788aa3435d9.jpg',
     caption: 'Роспись — финальный штрих'
   },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/c82999d5-6464-46d3-9115-7dff958002f0.jpg',
+    caption: 'Женщина с ребёнком — готовая работа'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/58d49d30-4af1-4432-ab6c-ba3ed3a18298.jpg',
+    caption: 'Процесс создания — работа бензопилой'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/17584791-8c10-48c9-9af8-8f46b5f27674.jpg',
+    caption: 'Автор рядом с завершённой скульптурой'
+  },
 ]
 
 interface GallerySectionProps {
