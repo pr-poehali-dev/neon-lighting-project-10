@@ -17,13 +17,13 @@ export const sections = [
     id: 'features',
     title: 'Из чего я создаю',
     content: 'Дуб, орех, карельская берёза, кедр — каждая порода несёт свою энергию. Я отбираю только цельные массивы с уникальным рисунком, чтобы скульптура была неповторимой.',
-    image: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/files/833e907a-465c-433a-aaa2-464dcfc79583.jpg'
+    image: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/1e58a6f1-6cca-4a3c-8316-dca12ac2fa1b.jpg'
   },
   {
     id: 'testimonials',
     title: 'Работы живут в домах и галереях.',
     content: 'Мои скульптуры — в частных коллекциях в России и за рубежом. Каждая создана в единственном экземпляре и сопровождается сертификатом подлинности.',
-    image: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/files/f0e4170c-9ce9-4c12-899d-c0d782040429.jpg'
+    image: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/493578f2-b3f5-4ae9-92a6-b6410eec4a8b.jpg'
   },
   {
     id: 'join',
