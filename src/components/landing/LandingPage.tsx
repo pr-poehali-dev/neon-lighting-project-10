@@ -62,6 +62,7 @@ export default function LandingPage() {
           key={sections[i].id}
           {...sections[i]}
           isActive={sectionIndex === activeSection}
+          onButtonClick={sections[i].id === 'hero' ? () => handleNavClick(GALLERY_INDEX) : undefined}
         />
       )
       sectionIndex++
