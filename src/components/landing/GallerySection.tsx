@@ -35,6 +35,18 @@ const photos = [
     url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/6ebc617f-847e-4555-b5a7-d7ae2cfd58c9.jpg',
     caption: 'Сердце — автор внутри своей работы'
   },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/4677a6d8-4182-4bce-ae68-943ef8205613.jpg',
+    caption: 'Воин — крупный план'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/74eec1af-4377-4a2c-9125-d442e5fa4707.jpg',
+    caption: 'Воин — в полный рост'
+  },
+  {
+    url: 'https://cdn.poehali.dev/projects/36b10a90-991a-438d-881b-63bcb01371af/bucket/5a86d00e-c2a9-42aa-9d2e-8358add86fa4.jpg',
+    caption: 'Начало — первые срезы бензопилой'
+  },
 ]
 
 interface GallerySectionProps {
@@ -73,7 +85,7 @@ export default function GallerySection({ isActive }: GallerySectionProps) {
         </motion.h2>
 
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-4 gap-3 flex-1 min-h-0"
+          className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 flex-1 min-h-0"
           initial={{ opacity: 0 }}
           animate={isActive ? { opacity: 1 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
